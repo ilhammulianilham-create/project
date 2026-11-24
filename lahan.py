@@ -126,7 +126,7 @@ def lihat_lahan():
 
 
 # ---------------------------------------------------------------- SEARCH
-def cari_lahan():
+def cari_lahan_interaktif():
     u.judul("Cari Lahan")
     data = muat_lahan()
     if not data:
@@ -216,9 +216,12 @@ def hapus_lahan():
 # ---------------------------------------------------------------- menu
 def menu_lahan():
     aksi = {
-        "1": tambah_lahan, "2": lihat_lahan, "3": cari_lahan,
-        "4": ubah_lahan, "5": hapus_lahan,
-    }
+    "1": tambah_lahan,
+    "2": lihat_lahan,
+    "3": cari_lahan_interaktif,
+    "4": ubah_lahan,
+    "5": hapus_lahan,
+}
     while True:
         pilihan = u.menu(
             "Kelola Lahan",
