@@ -1,0 +1,1 @@
+# id|nama|lokasi|luas_m2|tanaman|tanggal_tanam|umur_panen_hari|status

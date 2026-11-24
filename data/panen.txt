@@ -1,0 +1,1 @@
+# id|id_lahan|tanaman|tanggal|jumlah_kg|harga_per_kg|catatan
